@@ -16,6 +16,7 @@ const displayCountries = countries => {
             countryDiv.innerHTML = countryInfo;
             countriesDiv.appendChild(countryDiv);
     });
+}
 
     const displayCountryDetail = name => {
         const url = `https://restcountries.eu/rest/v2/name/${name}`
@@ -53,4 +54,3 @@ const displayCountries = countries => {
     //     countryDiv.innerHTML = countryInfo;
     //     countriesDiv.appendChild(countryDiv);
     // }
-}
